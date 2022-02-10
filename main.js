@@ -33,6 +33,7 @@ function playRound(playerSelection, computerSelection){
     else return 'Uh oh... Something\'s not right';
 }
 
+// Actual game, uses while loop until someone wins
 function game(){
     let user = 0;
     let pc = 0;
