@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Odin's Rock Paper Scissors</title>
-</head>
-<body>
-    <h1>Odin's Rock Paper Scissors</h1>
-    <h2 id="intro"></h2>
-    <div id="gameboard">
-        <p id="stats">Stats</p>
-        <p id="game-result">Best of 5!</p>
-        <p id="round-result">Round Results</p>
-    </div>
-    <div id="wrapper">
-        <button id="rock" onclick="game('rock')">Rock</button>
-        <button id="paper" onclick="game('paper')">Paper</button>
-        <button id="scissors" onclick="game('scissors')">Scissors</button>
-    </div>
-    <script src="main.js"></script>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Odin's Rock Paper Scissors</title>
+    </head>
+    <body>
+        <h1>Odin's Rock Paper Scissors</h1>
+        <h2 id="intro"></h2>
+        <div>
+            <p id="game-result">Best of 5!</p>
+            <p id="stats" style="display: none">Stats</p>
+            <p id="round-result" style="display: none">Round Results</p>
+        </div>
+        <div>
+            <button id="rock">Rock</button>
+            <button id="paper">Paper</button>
+            <button id="scissors">Scissors</button>
+        </div>
+        <div>
+            <button id="reset">Reset</button>
+        </div>
+        <script src="main.js"></script>
+    </body>
 </html>
