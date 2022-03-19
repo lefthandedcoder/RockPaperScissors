@@ -22,7 +22,7 @@ body {
     gap: 2vw;
 }
 #player-score, #pc-score {
-    font-size: 10em;
+    font-size: 12px;
     font-weight: bold;
 }
 
@@ -33,7 +33,7 @@ body {
 
 #round-result, #game-result {
     font-weight: bold;
-    font-size: 10em;
+    font-size: 12px;
 }
 
 #buttons {
