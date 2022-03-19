@@ -39,6 +39,12 @@ body {
     align-items: center;
     gap: 2vw;
 }
+#buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vw;
+}
 
 #options {
     flex-direction: row;
@@ -48,6 +54,7 @@ body {
 footer {
     margin: 0;
     padding: 10vw;
+    display: flex;
     align-items: center;
     justify-content: center;
     font-size: x-small;
