@@ -1,12 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Odin's Rock Paper Scissors</title>
-</head>
-<body>
-    <script src="main.js"></script>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/style.css">
+        <title>Odin's Rock Paper Scissors</title>
+    </head>
+    <body>
+        <h3>Odin's Rock Paper Scissors</h3>
+        <div id="screen">
+            <div id="player">
+                <img src="\images\headband.png" id="player-img" style="max-width: 7vw;" alt="">
+                <p id="player-score"></p>
+            </div>
+            <div id="pc">
+                <img src="\images\ai.png" id="pc-img" style="max-width: 7vw;" alt="">
+                <p id="pc-score"></p>
+            </div>
+        </div>
+        <div id="score">
+            <p id="game-result">Best of 5!</p>
+            <p id="round-result" style="display: none;">Round Results</p>
+        </div>
+        
+        <div id="buttons">
+            <div id="options">
+                <img id="rock" src="\images\rock.png" style="max-width: 5vw; cursor: pointer;" alt="rock button">
+                <img id="paper" src="\images\paper-plane.png" style="max-width: 5vw; cursor: pointer;" alt="paper button">
+                <img id="scissors" src="\images\scissors.png" style="max-width: 5vw; cursor: pointer;" alt="scissors button">
+            </div>
+            <img id="reset" src="\images\reset.png" style="max-width: 5vw; cursor: pointer;" alt="reset button">
+        </div>
+        <footer>
+            <p>Copyright &copy; Christian Dye 2022 <img src="https://github.com/lefthandedcoder/landing_page/blob/main/images/owl.png?raw=true" alt="brooding owl"></p>
+        </footer>
+        <script src="main.js"></script>
+    </body>
 </html>
