@@ -25,20 +25,17 @@ body {
     font-size: 10px;
     font-weight: bold;
 }
+
 #score {
     display: flex;
     align-items: center;
 }
+
 #round-result, #game-result {
     font-weight: bold;
     font-size: 10px;
 }
 
-#buttons {
-    flex-direction: column;
-    align-items: center;
-    gap: 2vw;
-}
 #buttons {
     display: flex;
     flex-direction: column;
@@ -47,6 +44,7 @@ body {
 }
 
 #options {
+    display: flex;
     flex-direction: row;
     gap: 3vw;
 }
